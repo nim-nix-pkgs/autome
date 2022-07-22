@@ -1,0 +1,63 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648105061,
+        "narHash": "sha256-Je25qNlH4xrH3+m6vIq6yPvdfQ80FRTwX4JOhrRLduc=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "f1ec5e2f15b9f717c33b6942ce7cb344ff868522",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
+        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-autome-master": "src-autome-master"
+      }
+    },
+    "src-autome-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1479458808,
+        "narHash": "sha256-Pih0j1l+FWT8jPV+hhqqwButzTAZ02bc44poMxEwRs4=",
+        "owner": "miere43",
+        "repo": "autome",
+        "rev": "c2a3925f55417df09bb74f80b445fc34e7c80c51",
+        "type": "github"
+      },
+      "original": {
+        "owner": "miere43",
+        "ref": "refs/heads/master",
+        "repo": "autome",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
